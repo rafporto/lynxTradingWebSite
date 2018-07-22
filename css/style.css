@@ -275,7 +275,7 @@ h1, h2, h3, h4, h5, h6, figure {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
-        min-height: 700px;
+        min-height: 500px;
         position: relative; }
         #colorlib-hero .flexslider .slides li:after {
           position: absolute;
@@ -333,7 +333,7 @@ h1, h2, h3, h4, h5, h6, figure {
         #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
           padding: 15px 30px;
           background: #404040 !important;
-          color: #fff;
+          color: #4f4f4f;
           border: none !important;
           font-size: 18px; }
           #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn:hover {
@@ -364,7 +364,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #colorlib-blog,
 #colorlib-contact,
 #colorlib-footer {
-  padding: 7em 0;
+  padding: 3em 0;
   clear: both; }
   @media screen and (max-width: 768px) {
     #colorlib-about,
@@ -745,7 +745,7 @@ h1, h2, h3, h4, h5, h6, figure {
     height: 54px;
     border: none !important;
     background: #01FF70;
-    color: #fff;
+    color: #4f4f4f;
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 400;
@@ -1083,10 +1083,6 @@ h1, h2, h3, h4, h5, h6, figure {
   font-family: "Playfair Display", Georgia, serif;
   font-size: 16px;
   font-weight: 400;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  -ms-border-radius: 30px;
-  border-radius: 30px;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -1101,79 +1097,80 @@ h1, h2, h3, h4, h5, h6, figure {
     outline: none !important; }
 
 .btn-primary {
+  text-transform: uppercase;
   background: #01FF70;
-  color: #fff;
+  color: #4f4f4f;
   border: 2px solid #01FF70; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     background: #7af9b2 !important;
     border-color: #7af9b2 !important; }
   .btn-primary.btn-outline {
     background: transparent;
-    color: #01FF70;
+    color: #4f4f4f;
     border: 2px solid #01FF70; }
     .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
       background: #01FF70;
-      color: #fff; }
+      color: #4f4f4f; }
 
 .btn-success {
   background: #5cb85c;
-  color: #fff;
+  color: #4f4f4f;
   border: 2px solid #5cb85c; }
   .btn-success:hover, .btn-success:focus, .btn-success:active {
     background: #4cae4c !important;
     border-color: #4cae4c !important; }
   .btn-success.btn-outline {
     background: transparent;
-    color: #5cb85c;
+    color: #4f4f4f;
     border: 2px solid #5cb85c; }
     .btn-success.btn-outline:hover, .btn-success.btn-outline:focus, .btn-success.btn-outline:active {
       background: #5cb85c;
-      color: #fff; }
+      color: #4f4f4f; }
 
 .btn-info {
   background: #5bc0de;
-  color: #fff;
+  color: #4f4f4f;
   border: 2px solid #5bc0de; }
   .btn-info:hover, .btn-info:focus, .btn-info:active {
     background: #46b8da !important;
     border-color: #46b8da !important; }
   .btn-info.btn-outline {
     background: transparent;
-    color: #5bc0de;
+    color: #4f4f4f;
     border: 2px solid #5bc0de; }
     .btn-info.btn-outline:hover, .btn-info.btn-outline:focus, .btn-info.btn-outline:active {
       background: #5bc0de;
-      color: #fff; }
+      color: #4f4f4f; }
 
 .btn-warning {
   background: #f0ad4e;
-  color: #fff;
+  color: #4f4f4f;
   border: 2px solid #f0ad4e; }
   .btn-warning:hover, .btn-warning:focus, .btn-warning:active {
     background: #eea236 !important;
     border-color: #eea236 !important; }
   .btn-warning.btn-outline {
     background: transparent;
-    color: #f0ad4e;
+    color: #4f4f4f;
     border: 2px solid #f0ad4e; }
     .btn-warning.btn-outline:hover, .btn-warning.btn-outline:focus, .btn-warning.btn-outline:active {
       background: #f0ad4e;
-      color: #fff; }
+      color: #4f4f4f; }
 
 .btn-danger {
   background: #d9534f;
-  color: #fff;
+  color: #4f4f4f;
   border: 2px solid #d9534f; }
   .btn-danger:hover, .btn-danger:focus, .btn-danger:active {
     background: #d43f3a !important;
     border-color: #d43f3a !important; }
   .btn-danger.btn-outline {
     background: transparent;
-    color: #d9534f;
+    color: #4f4f4f;
     border: 2px solid #d9534f; }
     .btn-danger.btn-outline:hover, .btn-danger.btn-outline:focus, .btn-danger.btn-outline:active {
       background: #d9534f;
-      color: #fff; }
+      color: #4f4f4f; }
 
 .btn-outline {
   background: none;
@@ -1204,7 +1201,7 @@ h1, h2, h3, h4, h5, h6, figure {
   .btn.with-arrow:hover {
     padding-right: 50px; }
     .btn.with-arrow:hover i {
-      color: #fff;
+      color: #4f4f4f;
       right: 18px;
       visibility: visible;
       opacity: 1; }
@@ -1243,13 +1240,59 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .container-video { position:relative; }
 .container-video video {
+    background-color: black;
     position:relative;
-    opacity: 0.7;
+    opacity: 0.5;
     z-index:0;
 }
-.overlay-video {
+
+@media only screen and (min-width : 1200px)  {
+  .overlay-video a {
+    font-size: 130px;
+  }
+  .overlay-video p {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (min-width : 800px) and (max-width : 1199px) {
+  .overlay-video a {
+    font-size: 100px;
+  }
+  .overlay-video p {
+    font-size: 30px;
+  }
+ 
+}
+
+@media only screen and (min-width : 550px) and (max-width : 799px) {
+  .overlay-video a {
+    font-size: 80px;
+  }
+  .overlay-video p {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (min-width : 420px) and (max-width : 549px) {
+  .overlay-video a {
+    font-size: 60px;
+  }
+  .overlay-video p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width : 419px) {
+  .overlay-video a {
+    font-size: 40px;
+  }
+  .overlay-video p {
+    font-size: 15px;
+  }
+}
+ .overlay-video {
     color: black;
-    font-size: 50px;
     font-family: "Playfair Display", Georgia, serif;
     font-weight: 200;
     position: absolute;
